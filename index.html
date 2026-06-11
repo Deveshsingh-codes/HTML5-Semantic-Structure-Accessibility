@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alex Rivera — Senior Product Designer crafting human-centered digital experiences. Based in San Francisco." />
+  <meta name="keywords" content="product design, UX design, UI design, portfolio, San Francisco designer" />
+  <meta name="author" content="Alex Rivera" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Alex Rivera — Product Designer" />
+  <meta property="og:description" content="Senior Product Designer crafting human-centered digital experiences. Based in San Francisco." />
+  <meta property="og:url" content="https://alexrivera.design" />
+  <meta property="og:image" content="https://alexrivera.design/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Alex Rivera — Product Designer" />
+  <meta name="twitter:description" content="Senior Product Designer crafting human-centered digital experiences." />
+  <meta name="twitter:image" content="https://alexrivera.design/og-image.jpg" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://alexrivera.design/" />
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <title>Alex Rivera — Product Designer</title>
+
+  <!-- Structured Data / JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Alex Rivera",
+    "jobTitle": "Senior Product Designer",
+    "url": "https://alexrivera.design",
+    "sameAs": [
+      "https://linkedin.com/in/alexrivera",
+      "https://dribbble.com/alexrivera"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Skip Navigation for screen readers / keyboard users -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ─── HEADER / SITE NAV ─── -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Alex Rivera — home">
+        <span class="logo-name" aria-hidden="true">AR</span>
+        <span class="logo-full">Alex Rivera</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        aria-controls="primary-nav"
+        aria-expanded="false"
+        aria-label="Open navigation menu"
+      >
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <ul role="list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─── MAIN CONTENT ─── -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-inner">
+        <div class="hero-eyebrow">
+          <span class="mono-label" aria-hidden="true">01 /</span>
+          <span class="availability-dot" aria-hidden="true"></span>
+          <span class="availability-text">Available for work</span>
+        </div>
+
+        <h1 id="hero-heading" class="hero-heading">
+          Designing things<br />
+          <em>worth using.</em>
+        </h1>
+
+        <p class="hero-sub">
+          Senior Product Designer with 8 years shaping interfaces for fintech,
+          healthcare, and consumer products. I work at the seam of research,
+          systems thinking, and craft.
+        </p>
+
+        <div class="hero-actions">
+          <a href="work.html" class="btn btn-primary">View selected work</a>
+          <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Product Design</span>
+          <span aria-hidden="true">·</span>
+          <span>Design Systems</span>
+          <span aria-hidden="true">·</span>
+          <span>User Research</span>
+          <span aria-hidden="true">·</span>
+          <span>Interaction Design</span>
+          <span aria-hidden="true">·</span>
+          <span>Prototyping</span>
+          <span aria-hidden="true">·</span>
+          <span>Product Design</span>
+          <span aria-hidden="true">·</span>
+          <span>Design Systems</span>
+          <span aria-hidden="true">·</span>
+          <span>User Research</span>
+          <span aria-hidden="true">·</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED WORK SECTION -->
+    <section class="section-work" aria-labelledby="work-heading">
+      <div class="section-inner">
+        <header class="section-header">
+          <span class="mono-label" aria-hidden="true">02 /</span>
+          <h2 id="work-heading">Selected Work</h2>
+          <a href="work.html" class="section-link" aria-label="View all work projects">View all →</a>
+        </header>
+
+        <!-- Project list using article elements for independent content -->
+        <ol class="project-list" role="list" aria-label="Featured projects">
+
+          <li>
+            <article class="project-card" aria-labelledby="proj-1-title">
+              <a href="work.html#nexus" class="project-card-link" tabindex="-1" aria-hidden="true"></a>
+              <div class="project-meta">
+                <span class="project-year">2024</span>
+                <span class="project-tag">Fintech</span>
+              </div>
+              <h3 id="proj-1-title" class="project-title">
+                <a href="work.html#nexus">Nexus — Banking Redesign</a>
+              </h3>
+              <p class="project-desc">
+                End-to-end redesign of a $2B neobank's mobile experience,
+                reducing task completion time by 34%.
+              </p>
+              <ul class="project-skills" aria-label="Skills used">
+                <li>UX Research</li>
+                <li>Interaction Design</li>
+                <li>Design System</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article class="project-card" aria-labelledby="proj-2-title">
+              <a href="work.html#medflow" class="project-card-link" tabindex="-1" aria-hidden="true"></a>
+              <div class="project-meta">
+                <span class="project-year">2023</span>
+                <span class="project-tag">Healthcare</span>
+              </div>
+              <h3 id="proj-2-title" class="project-title">
+                <a href="work.html#medflow">MedFlow — Clinical Dashboard</a>
+              </h3>
+              <p class="project-desc">
+                A zero-training-required clinical workflow tool deployed across
+                47 hospitals. WCAG 2.1 AA compliant by design.
+              </p>
+              <ul class="project-skills" aria-label="Skills used">
+                <li>Accessibility</li>
+                <li>Data Visualisation</li>
+                <li>Usability Testing</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article class="project-card" aria-labelledby="proj-3-title">
+              <a href="work.html#canvas" class="project-card-link" tabindex="-1" aria-hidden="true"></a>
+              <div class="project-meta">
+                <span class="project-year">2022</span>
+                <span class="project-tag">SaaS</span>
+              </div>
+              <h3 id="proj-3-title" class="project-title">
+                <a href="work.html#canvas">Canvas — Design System</a>
+              </h3>
+              <p class="project-desc">
+                Built a multi-brand token-based design system adopted by
+                12 product teams across 3 continents.
+              </p>
+              <ul class="project-skills" aria-label="Skills used">
+                <li>Design Systems</li>
+                <li>Component Library</li>
+                <li>Documentation</li>
+              </ul>
+            </article>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ABOUT TEASER SECTION -->
+    <section class="section-about" aria-labelledby="about-teaser-heading">
+      <div class="section-inner about-inner">
+        <div class="about-text">
+          <span class="mono-label" aria-hidden="true">03 /</span>
+          <h2 id="about-teaser-heading">A bit about me</h2>
+          <p>
+            I started in graphic design, moved through front-end development,
+            and eventually landed where both meet: product design. That
+            cross-disciplinary path is the lens through which I approach
+            every problem — aesthetic rigor with engineering empathy.
+          </p>
+          <a href="about.html" class="btn btn-ghost" aria-label="Read more about Alex Rivera">More about me →</a>
+        </div>
+
+        <aside class="about-stats" aria-label="Career highlights">
+          <dl class="stats-list">
+            <div class="stat-item">
+              <dt class="stat-label">Years experience</dt>
+              <dd class="stat-value" aria-label="8 years">8</dd>
+            </div>
+            <div class="stat-item">
+              <dt class="stat-label">Projects shipped</dt>
+              <dd class="stat-value" aria-label="60+ projects">60<sup aria-hidden="true">+</sup></dd>
+            </div>
+            <div class="stat-item">
+              <dt class="stat-label">Countries worked in</dt>
+              <dd class="stat-value" aria-label="9 countries">9</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-copy">
+        <span aria-hidden="true">©</span>
+        <span class="sr-only">Copyright</span>
+        2025 Alex Rivera. All rights reserved.
+      </p>
+
+      <nav aria-label="Footer navigation">
+        <ul role="list" class="footer-nav">
+          <li><a href="work.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <ul role="list" class="social-links" aria-label="Social media links">
+        <li>
+          <a href="https://linkedin.com/in/alexrivera" target="_blank" rel="noopener noreferrer" aria-label="Alex Rivera on LinkedIn (opens in new tab)">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://dribbble.com/alexrivera" target="_blank" rel="noopener noreferrer" aria-label="Alex Rivera on Dribbble (opens in new tab)">Dribbble</a>
+        </li>
+        <li>
+          <a href="https://github.com/alexrivera" target="_blank" rel="noopener noreferrer" aria-label="Alex Rivera on GitHub (opens in new tab)">GitHub</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
